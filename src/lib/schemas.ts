@@ -22,7 +22,7 @@ export const studentSchema = z.object({
     .min(6, "Numéro trop court")
     .max(30, "Numéro trop long")
     .regex(/^[+0-9 .()-]+$/, "Numéro invalide"),
-  level: z.enum(["debutant", "intermediaire", "expert"], {
+  level: z.enum(["debutant", "intermediaire", "expert"] as const, {
     errorMap: () => ({ message: "Veuillez choisir un niveau" }),
   }),
 });
