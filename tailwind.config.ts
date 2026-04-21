@@ -63,6 +63,18 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        display: ['"Playfair Display"', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-gold': 'var(--gradient-gold)',
+        'gradient-noir': 'var(--gradient-noir)',
+      },
+      boxShadow: {
+        elegant: 'var(--shadow-elegant)',
+        soft: 'var(--shadow-soft)',
+      },
       keyframes: {
         "accordion-down": {
           from: {
