@@ -75,6 +75,7 @@ export default {
         elegant: 'var(--shadow-elegant)',
         soft: 'var(--shadow-soft)',
       },
+      
       keyframes: {
         "accordion-down": {
           from: {
