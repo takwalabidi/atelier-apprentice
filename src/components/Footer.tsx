@@ -16,8 +16,8 @@ export const Footer = () => (
       </div>
       <div>
         <p className="eyebrow text-background/80 mb-3">Contact</p>
-        <p>contact@maison-veline.fr</p>
-        <p>+33 1 42 00 00 00</p>
+        <p>helene.veline@maison-veline.fr</p>
+        <p>+33 1 42 78 34 56</p>
       </div>
     </div>
     <div className="container mt-12 pt-8 border-t border-background/10 text-xs text-background/40 flex justify-between">
