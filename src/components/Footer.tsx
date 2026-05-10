@@ -16,7 +16,7 @@ export const Footer = () => (
       </div>
       <div>
         <p className="eyebrow text-background/80 mb-3">Contact</p>
-        <p>helene.veline@maison-veline.fr</p>
+        <p>maison-veline5@gmail.com</p>
         <p>+33 1 42 78 34 56</p>
       </div>
     </div>
